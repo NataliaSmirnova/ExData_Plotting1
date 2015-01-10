@@ -1,3 +1,10 @@
+##before running the code it is necessary to install package "data.table"
+##and run libraries data.table and datasets
+##install.packages("data.table")
+##library(data.table)
+##library(datasets)
+
+
 ##the datafile was downloaded to the working directory
     d_time<-difftime(as.POSIXct("2007-02-03"),as.POSIXct("2007-02-01"),units="mins")
     n_rows_to_read<-as.numeric(d_time)
